@@ -1,0 +1,264 @@
+<!DOCTYPE html >
+<html>
+        <head>
+          <title>terasort - spark-terasort 1.2-SNAPSHOT API - com.github.ehiggs.spark.terasort</title>
+          <meta name="description" content="terasort - spark - terasort 1.2 - SNAPSHOT API - com.github.ehiggs.spark.terasort" />
+          <meta name="keywords" content="terasort spark terasort 1.2 SNAPSHOT API com.github.ehiggs.spark.terasort" />
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link href="../../../../../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../../../../../lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
+      <script type="text/javascript" src="../../../../../lib/jquery.js" id="jquery-js"></script>
+      <script type="text/javascript" src="../../../../../lib/jquery-ui.js"></script>
+      <script type="text/javascript" src="../../../../../lib/template.js"></script>
+      <script type="text/javascript" src="../../../../../lib/tools.tooltip.js"></script>
+      
+      <script type="text/javascript">
+         if(top === self) {
+            var url = '../../../../../index.html';
+            var hash = 'com.github.ehiggs.spark.terasort.package';
+            var anchor = window.location.hash;
+            var anchor_opt = '';
+            if (anchor.length >= 1)
+              anchor_opt = '@' + anchor.substring(1);
+            window.location.href = url + '#' + hash + anchor_opt;
+         }
+   	  </script>
+    
+        </head>
+        <body class="value">
+      <div id="definition">
+        <img alt="Package" src="../../../../../lib/package_big.png" />
+        <p id="owner"><a href="../../../../package.html" class="extype" name="com">com</a>.<a href="../../../package.html" class="extype" name="com.github">github</a>.<a href="../../package.html" class="extype" name="com.github.ehiggs">ehiggs</a>.<a href="../package.html" class="extype" name="com.github.ehiggs.spark">spark</a></p>
+        <h1>terasort</h1><span class="permalink">
+      <a href="../../../../../index.html#com.github.ehiggs.spark.terasort.package" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      </div>
+
+      <h4 id="signature" class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <span class="name">terasort</span>
+      </span>
+      </h4>
+      
+          <div id="comment" class="fullcommenttop"></div>
+        
+
+      <div id="mbrsel">
+        <div id="textfilter"><span class="pre"></span><span class="input"><input id="mbrsel-input" type="text" accesskey="/" /></span><span class="post"></span></div>
+        
+        
+        <div id="visbl">
+            <span class="filtertype">Visibility</span>
+            <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+          </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        
+
+        <div id="types" class="types members">
+              <h3>Type Members</h3>
+              <ol><li name="com.github.ehiggs.spark.terasort.TeraInputFormat" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="TeraInputFormatextendsFileInputFormat[Array[Byte],Array[Byte]]"></a>
+      <a id="TeraInputFormat:TeraInputFormat"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="TeraInputFormat.html"><span class="name">TeraInputFormat</span></a><span class="result"> extends <span class="extype" name="org.apache.hadoop.mapreduce.lib.input.FileInputFormat">FileInputFormat</span>[<span class="extype" name="scala.Array">Array</span>[<span class="extype" name="scala.Byte">Byte</span>], <span class="extype" name="scala.Array">Array</span>[<span class="extype" name="scala.Byte">Byte</span>]]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#com.github.ehiggs.spark.terasort.package@TeraInputFormatextendsFileInputFormat[Array[Byte],Array[Byte]]" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="com.github.ehiggs.spark.terasort.TeraOutputFormat" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="TeraOutputFormatextendsFileOutputFormat[Array[Byte],Array[Byte]]"></a>
+      <a id="TeraOutputFormat:TeraOutputFormat"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="TeraOutputFormat.html"><span class="name">TeraOutputFormat</span></a><span class="result"> extends <span class="extype" name="org.apache.hadoop.mapreduce.lib.output.FileOutputFormat">FileOutputFormat</span>[<span class="extype" name="scala.Array">Array</span>[<span class="extype" name="scala.Byte">Byte</span>], <span class="extype" name="scala.Array">Array</span>[<span class="extype" name="scala.Byte">Byte</span>]]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#com.github.ehiggs.spark.terasort.package@TeraOutputFormatextendsFileOutputFormat[Array[Byte],Array[Byte]]" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="com.github.ehiggs.spark.terasort.TeraSortPartitioner" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="TeraSortPartitionerextendsPartitionerwithProductwithSerializable"></a>
+      <a id="TeraSortPartitioner:TeraSortPartitioner"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="TeraSortPartitioner.html"><span class="name">TeraSortPartitioner</span></a><span class="params">(<span name="numPartitions">numPartitions: <span class="extype" name="scala.Int">Int</span></span>)</span><span class="result"> extends <span class="extype" name="org.apache.spark.Partitioner">Partitioner</span> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#com.github.ehiggs.spark.terasort.package@TeraSortPartitionerextendsPartitionerwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Partitioner for terasort.</p><div class="fullcomment"><div class="comment cmt"><p>Partitioner for terasort. It uses the first seven bytes of the byte array to partition
+the key space evenly.
+</p></div></div>
+    </li></ol>
+            </div>
+
+        
+
+        <div id="values" class="values members">
+              <h3>Value Members</h3>
+              <ol><li name="com.github.ehiggs.spark.terasort.TeraGen" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="TeraGen"></a>
+      <a id="TeraGen:TeraGen"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="TeraGen$.html"><span class="name">TeraGen</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#com.github.ehiggs.spark.terasort.package@TeraGen" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="com.github.ehiggs.spark.terasort.TeraInputFormat" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="TeraInputFormat"></a>
+      <a id="TeraInputFormat:TeraInputFormat"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="TeraInputFormat$.html"><span class="name">TeraInputFormat</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#com.github.ehiggs.spark.terasort.package@TeraInputFormat" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="com.github.ehiggs.spark.terasort.TeraOutputFormat" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="TeraOutputFormat"></a>
+      <a id="TeraOutputFormat:TeraOutputFormat"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="TeraOutputFormat$.html"><span class="name">TeraOutputFormat</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#com.github.ehiggs.spark.terasort.package@TeraOutputFormat" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">An output format that writes the key and value appended together.</p>
+    </li><li name="com.github.ehiggs.spark.terasort.TeraSort" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="TeraSort"></a>
+      <a id="TeraSort:TeraSort"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="TeraSort$.html"><span class="name">TeraSort</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#com.github.ehiggs.spark.terasort.package@TeraSort" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">This is a great example program to stress test Spark's shuffle mechanism.</p><div class="fullcomment"><div class="comment cmt"><p>This is a great example program to stress test Spark's shuffle mechanism.</p><p>See http://sortbenchmark.org/
+</p></div></div>
+    </li><li name="com.github.ehiggs.spark.terasort.TeraSortPartitioner" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="TeraSortPartitioner"></a>
+      <a id="TeraSortPartitioner:TeraSortPartitioner"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="TeraSortPartitioner$.html"><span class="name">TeraSortPartitioner</span></a><span class="result"> extends <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#com.github.ehiggs.spark.terasort.package@TeraSortPartitioner" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="com.github.ehiggs.spark.terasort.TeraValidate" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="TeraValidate"></a>
+      <a id="TeraValidate:TeraValidate"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="TeraValidate$.html"><span class="name">TeraValidate</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#com.github.ehiggs.spark.terasort.package@TeraValidate" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">An application that reads sorted data according to the terasort spec and
+reports if it's indeed sorted.</p><div class="fullcomment"><div class="comment cmt"><p>An application that reads sorted data according to the terasort spec and
+reports if it's indeed sorted.
+This is an example program to validate TeraSort results</p><p>See http://sortbenchmark.org/
+</p></div></div>
+    </li></ol>
+            </div>
+
+        
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        
+        
+        </div>
+
+        <div id="groupedMembers">
+        <div class="group" name="Ungrouped">
+              <h3>Ungrouped</h3>
+              
+            </div>
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">  </div>
+
+
+    </body>
+      </html>

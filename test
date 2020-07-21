@@ -1,0 +1,2 @@
+export M2_HOME=/opt/maven
+export PATH=/opt/maven/bin:/home/oslab/bin:/home/oslab/.local/bin:/home/oslab/go/src/github.com/fabric-samples/bin:/home/oslab/.nvm/versions/node/v10.15.1/bin:/home/oslab/go/bin:/usr/local/go/bin:/opt/maven/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin

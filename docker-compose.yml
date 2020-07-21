@@ -1,0 +1,29 @@
+version: "3.2"
+services:
+  spark-master:
+    image: spydernaz/spark-master:latest
+    ports:
+      - "9090:8080"
+      - "7077:7077"
+    volumes:
+       - ./apps:/opt/spark-apps
+       - ./data:/opt/spark-data
+    environment:
+      - "SPARK_LOCAL_IP=spark-master"
+  spark-worker:
+    image: spydernaz/spark-worker:latest
+    deploy:
+       resources:
+          limits:
+             cpus: '0.04'
+    depends_on:
+      - spark-master
+    environment:
+      - SPARK_MASTER=spark://spark-master:7077
+      - SPARK_WORKER_CORES=2
+      - SPARK_WORKER_MEMORY=8G
+      - SPARK_DRIVER_MEMORY=8G
+      - SPARK_EXECUTOR_MEMORY=8G
+    volumes:
+       - ./apps:/opt/spark-apps
+       - ./data:/opt/spark-data
