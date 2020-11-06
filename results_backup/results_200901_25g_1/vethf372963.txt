@@ -1,0 +1,10 @@
+Sampling vethf372963 (60 seconds average)...[1G[2K9913 packets sampled in 60 seconds
+Traffic average for vethf372963
+
+      rx       704.69 kbit/s            80 packets/s
+      tx       437.59 kbit/s            84 packets/s
+
+Monitoring vethf372963...    (press CTRL-C to stop)
+
+   getting traffic...[?25l[1G[2K   rx:      849 kbit/s    99 p/s          tx:      548 kbit/s   100 p/s[1G[2K   rx:      774 kbit/s    86 p/s          tx:      460 kbit/s    89 p/s[1G[2K   rx:      741 kbit/s    84 p/s          tx:      454 kbit/s    86 p/s[1G[2K   rx:      739 kbit/s    83 p/s          tx:      439 kbit/s    84 p/s[1G[2K   rx:      812 kbit/s    93 p/s          tx:      513 kbit/s    97 p/s[1G[2K   rx:      848 kbit/s    99 p/s          tx:      549 kbit/s   103 p/s[1G[2K   rx:       16 kbit/s    24 p/s          tx:      165 kbit/s    30 p/sError: Unable to get interface "vethf372963" statistics.
+[?25hError: Interface "vethf372963" not available, exiting.

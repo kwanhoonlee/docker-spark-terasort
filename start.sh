@@ -1,2 +1,3 @@
 #!/bin/bash
-docker-compose up --scale spark-worker=3
+./start_master.sh
+./start_slaves.sh

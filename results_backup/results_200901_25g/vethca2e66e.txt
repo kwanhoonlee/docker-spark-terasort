@@ -1,0 +1,10 @@
+Sampling vethca2e66e (60 seconds average)...[1G[2K10163 packets sampled in 60 seconds
+Traffic average for vethca2e66e
+
+      rx       722.28 kbit/s            82 packets/s
+      tx       448.20 kbit/s            87 packets/s
+
+Monitoring vethca2e66e...    (press CTRL-C to stop)
+
+   getting traffic...[?25l[1G[2K   rx:      775 kbit/s    86 p/s          tx:      475 kbit/s    90 p/s[1G[2K   rx:      774 kbit/s    85 p/s          tx:      475 kbit/s    89 p/s[1G[2K   rx:      814 kbit/s    95 p/s          tx:      542 kbit/s    98 p/s[1G[2K   rx:      809 kbit/s    90 p/s          tx:      480 kbit/s    92 p/s[1G[2K   rx:      704 kbit/s    79 p/s          tx:      418 kbit/s    80 p/sError: Unable to get interface "vethca2e66e" statistics.
+[?25hError: Interface "vethca2e66e" not available, exiting.

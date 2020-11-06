@@ -1,0 +1,25 @@
+version: "3.2"
+services:
+  spark-worker1:
+    container_name: spark-worker1
+    image: spydernaz/spark-worker:latest
+    networks:
+      - br-n-spark
+    extra_hosts:
+      - spark-master:10.0.0.201
+      - spark-worker4:10.0.0.24
+      - spark-worker5:10.0.0.24
+#      - spark-worker6:10.0.0.24
+    environment:
+      - SPARK_MASTER=spark://spark-master:7077
+      - SPARK_WORKER_CORES=2
+      - SPARK_WORKER_MEMORY=16G
+      - SPARK_DRIVER_MEMORY=16G
+      - SPARK_EXECUTOR_MEMORY=16G
+    volumes:
+       - ./apps:/opt/spark-apps
+       - ./data:/opt/spark-data
+
+networks:
+   br-n-spark:
+     driver: bridge
